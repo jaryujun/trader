@@ -1,0 +1,250 @@
+# ====================
+# 操作系统文件
+# ====================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*.swo
+
+# ====================
+# 日志与临时文件
+# ====================
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
+
+# ====================
+# 编译构建产物
+# ====================
+dist/
+build/
+out/
+target/
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.pyc
+*.pyo
+*.class
+*.jar
+*.war
+*.ear
+
+# ====================
+# Node.js
+# ====================
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+.pnpm-store/
+.vite/
+.eslintcache
+
+# ====================
+# Python
+# ====================
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.env
+.venv/
+Pipfile.lock
+poetry.lock
+
+# ====================
+# Java
+# ====================
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.idea/
+target/
+.gradle/
+build/
+out/
+
+# ====================
+# Go
+# ====================
+*.exe
+*.test
+*.out
+vendor/
+bin/
+coverage.out
+
+# ====================
+# Rust
+# ====================
+/target/
+**/*.rs.bk
+
+# ====================
+# PHP
+# ====================
+vendor/
+composer.lock
+
+# ====================
+# Ruby
+# ====================
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+log/
+tmp/
+.yardoc
+
+# ====================
+# C/C++
+# ====================
+*.out
+*.exe
+*.obj
+*.gch
+*.pch
+*.a
+*.lib
+*.so
+*.dll
+*.dSYM/
+cmake-build-*/
+
+# ====================
+# 数据库/导出文件
+# ====================
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+
+# ====================
+# 环境配置文件
+# ====================
+.env
+.env.*
+*.local
+*.secret
+config.yaml
+
+# ====================
+# Visual Studio Code
+# ====================
+.vscode/
+.history/
+
+# ====================
+# IntelliJ IDEA
+# ====================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ====================
+# JetBrains (PyCharm/WebStorm/GoLand等)
+# ====================
+.idea/
+*.iml
+*.iws
+
+# ====================
+# macOS/Linux 相关
+# ====================
+*.DS_Store
+.AppleDouble
+.LSOverride
+.Trashes
+.fseventsd
+.cache/
+.directory
+
+# ====================
+# Windows 相关
+# ====================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ====================
+# 其他工具
+# ====================
+coverage/
+.nyc_output/
+.husky/_/
+.next/
+.nuxt/
+.sass-cache/
+.cache/
+.babel-cache/
+.parcel-cache/
+.cache-loader/
+jspm_packages/
+.browserslistrc
+.eslintcache
+.stylelintcache
+.svelte-kit/
+
+# ====================
+# Git 相关
+# ====================
+*.orig
+*.patch
+*.rej
+*.merge_file
+*.swp
+*.swo
+
+# ====================
+# 临时开发调试/工具文件
+# ====================
+*.tgz
+*.zip
+*.tar.gz
+*.7z
+*.bak
+*.tmp
+*.log
+*.pid
+*.seed
+*.log.*
+
+# ====================
+# Docker
+# ====================
+docker-compose.override.yml
+.docker/
+docker.env
+
+# ====================
+# Terraform
+# ====================
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# ====================
+# 项目私有文件
+# ====================
+secret.json
+secrets.yml
+config.local.*
+/.cursor/*
